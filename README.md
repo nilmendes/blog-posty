@@ -1,3 +1,25 @@
+# Blog Posty
+
+## Instructions:
+
+
+1. Clone the repository, run in the terminal: git clone https://github.com/nilmendes/blog-posty.git
+2. Run in the terminal: php artisan key:generate
+3. Run in the terminal: composer install
+4. Create an .env file at the root of the project, copy the contents of the .env.example file and paste it into the .env file you created.
+5. Fill in the database settings, email, in the .env file.
+6. Run in the terminal: npm install && npm run dev
+7. Run in the terminal: php artisan migrate
+8. Run in the terminal: php artisan serve in a terminal tab
+9. Run on the terminal: npm run watch on another terminal tab
+10. Access in your preferred browser: http://localhost:8000, register to access the system and login.
+- [To learn step by step how this system was developed, watch Professor Alex's tutorial at this link.](https://www.youtube.com/watch?v=MFh0Fd7BsjE&t=1s&ab_channel=TraversyMedia)
+
+### About this repository
+
+This repository is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -7,7 +29,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+### About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
